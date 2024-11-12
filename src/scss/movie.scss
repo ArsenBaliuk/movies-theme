@@ -121,3 +121,12 @@
     gap: 10px;
   }
 }
+
+@media (width < 768px) {
+  .single-movie {
+    &__inner {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
