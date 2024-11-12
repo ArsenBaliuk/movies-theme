@@ -1,42 +1,39 @@
-1. Рекомендовані версії WP та плагінів:
-Wordpress - 6.6.2 (версія на якій розроблялась тема);
-ACF PRO - 5.9.1 (версія на якій розроблялась тема);
-Cyr-To-Lat - 6.1.0 (не обовязковий, використовується для автоматичнох транскрипції посилань)
+1. Recommended versions of WP and plugins:
+Wordpress - 6.6.2 (the version on which the theme is developed);
+ACF PRO - 5.9.1 (the version on which the theme is developed);
+Cyr-To-Lat - 6.1.0 (optional, used for automatic link transcription)
 
 
-2. Для встановлення теми за допомогою візуально інтерфейсу Wordpress потрібно попередньо збільшити параметри у файлі 
+2. To install a theme using the Wordpress visual interface, you must first increase the parameters in the file
 php.ini:
   upload_max_filesize = 30M
   post_max_size = 30M
   max_execution_time = 300
   max_input_time = 300
 
-.htaccess(для Apachi):
+.htaccess(for Apachi):
   php_value upload_max_filesize 30M
   php_value post_max_size 30M
   php_value max_execution_time 300
   php_value max_input_time 300
 
-Також можна скористатись FTP клієнтом для завантаження файлів вручну.
+You can also use an FTP client to upload files manually.
 
 
-
-3. Активація існуючих ACF-полів:
+3. Activation of existing ACF fields:
 Custom Fields -> Sync available -> Select and activate all groups of fields.
 
 
-4. Шаблони сторінок та публікацій.
-Для головної сторінки потрібно обрати шаблон Main page.
-Секції для цього шаблону реалізовані за допомогою поля Flexible, що дає можливсть багаторазово перевикористовувати шаблони секцій і розміщувати їх у довільному порядку.
-Кастомний тип запису "Movies" доступний одразу після активації теми. Поля дата, рейтинг та постер реалізовані за допомогою ACF-полів, жанри - це вже таксономія(категорії).
-Усі попередньо створені поля для усіх шаблонів відображатимуться на сторінці після виконання п.3. 
+4. Templates of pages and publications.
+For the main page, you need to choose the Main page template.
+Sections for this template are implemented using the Flexible field, which makes it possible to reuse section templates multiple times and place them in any order.
+The custom recording type "Movies" is available immediately after activating the theme. Date, rating and poster fields are implemented using ACF fields, genres are taxonomy (categories). 
+All pre-created fields for all templates will be displayed on the page after execution of point 3.
 
 
-5. Меню та загальні параметри(опції):
-Елементи меню встановлюються у: Appearance -> Menus
-Лого та назва сайту встановлюються у вкладці "Options", поля для якої також збережені у форматі JSON і доступні в п.3. 
+5. Menu and general parameters (options):
+Menu items are set in: Appearance -> Menus
+The logo and name of the site are set in the "Options" tab, the fields for which are also saved in JSON format and are available in point 3.
 
-
-6. Робота сайту.
-Відображення контенту і його впорядкованість будуєтсья на кожному обраному параметрі: вид сортування + жарн + діапазон дати релізу.
-
+6. Website operation.
+Display of content and its orderliness is based on each selected parameter: sort type + genre + release date range.
