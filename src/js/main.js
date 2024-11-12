@@ -23,7 +23,7 @@ document.addEventListener( 'DOMContentLoaded', () => {
         }
 
         const data = new FormData();
-        data.append( 'action', "axaj_sort_movies" );
+        data.append( 'action', "ajax_sort_movies" );
         data.append( 'nonce', ajax_data.nonce );
         data.append( 'page', page );
         data.append( 'offset', offset );

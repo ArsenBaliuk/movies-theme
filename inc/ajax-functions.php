@@ -3,7 +3,7 @@
  * Movie list sorting and filtering function
  *
  */
-function axaj_sort_movies() {
+function ajax_sort_movies() {
 
     check_ajax_referer('load_more_nonce', 'nonce'); //Checking security of AJAX requests
 
@@ -79,5 +79,5 @@ function axaj_sort_movies() {
     wp_die();
 }
 
-add_action( 'wp_ajax_axaj_sort_movies', 'axaj_sort_movies' ); // for authorized users
-add_action( 'wp_ajax_nopriv_axaj_sort_movies', 'axaj_sort_movies' ); // for unauthorized users
+add_action( 'wp_ajax_ajax_sort_movies', 'ajax_sort_movies' ); // for authorized users
+add_action( 'wp_ajax_nopriv_ajax_sort_movies', 'ajax_sort_movies' ); // for unauthorized users
