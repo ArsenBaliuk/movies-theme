@@ -3,6 +3,7 @@ Wordpress - 6.6.2 (the version on which the theme is developed);
 ACF PRO - 5.9.1 (the version on which the theme is developed);
 Cyr-To-Lat - 6.1.0 (optional, used for automatic link transcription)
 
+The theme files were compiled and minified using Gulp.
 
 2. To install a theme using the Wordpress visual interface, you must first increase the parameters in the file
 php.ini:
