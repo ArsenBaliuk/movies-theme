@@ -24,7 +24,7 @@ function create_movies_type() {
         'public'      => true,
         'menu_icon'   => 'dashicons-format-video',
         'has_archive' => true,
-        'revision'    => true,
+        'revisions'    => true,
         'menu_position' => 4,
     );
 
