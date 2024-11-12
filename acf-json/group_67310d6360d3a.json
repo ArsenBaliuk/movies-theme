@@ -1,0 +1,236 @@
+{
+    "key": "group_67310d6360d3a",
+    "title": "TMPL - Main (General blog)",
+    "fields": [
+        {
+            "key": "field_67310d79350a8",
+            "label": "Main Sections",
+            "name": "main_sections",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_673115a459419": {
+                    "key": "layout_673115a459419",
+                    "name": "content_side_image",
+                    "label": "Content with side image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6732aa5565ad3",
+                            "label": "Background color",
+                            "name": "background_color",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": ""
+                        },
+                        {
+                            "key": "field_673115c674d30",
+                            "label": "Content",
+                            "name": "content",
+                            "type": "group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_673115d874d31",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "type": "text",
+                                    "instructions": "Add \"{\" and \"}\" characters around the selected word(s) to highlight it in a different color.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_6731160674d33",
+                                    "label": "The color of the highlighted text",
+                                    "name": "color_highlighted_text",
+                                    "type": "color_picker",
+                                    "instructions": "Choose a color for the highlighted text.\r\nLeave blank if you don't want to highlight the text.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": ""
+                                },
+                                {
+                                    "key": "field_673115dc74d32",
+                                    "label": "Subtitle",
+                                    "name": "subtitle",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
+                                },
+                                {
+                                    "key": "field_673116fa74d34",
+                                    "label": "Registration button",
+                                    "name": "registration_button",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "key": "field_6731171c74d35",
+                                    "label": "Any link button",
+                                    "name": "any_link_button",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_6731174174d36",
+                            "label": "Image",
+                            "name": "image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6731175274d37": {
+                    "key": "layout_6731175274d37",
+                    "name": "movies_with_filters",
+                    "label": "Movies with filters",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_673117ba74d3a",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Add \"{\" and \"}\" characters around the selected word(s) to highlight it in a different color.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6731179174d39",
+                            "label": "The color of the highlighted text",
+                            "name": "color_highlighted_text",
+                            "type": "color_picker",
+                            "instructions": "Choose a color for the highlighted text.\r\nLeave blank if you don't want to highlight the text.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1731373689
+}

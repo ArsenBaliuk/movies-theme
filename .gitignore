@@ -1,0 +1,14 @@
+# Node modules
+/node_modules/
+
+# Gulp
+.gulp/
+.gulp-cache/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
